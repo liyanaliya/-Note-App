@@ -1,0 +1,81 @@
+body{
+  background-color: pink;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px #00000015;
+}
+
+h1 {
+  text-align: center;
+  color:palevioletred;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline-color:pink;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.input-box button {
+  background: palevioletred;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  background: pink;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.note span {
+  flex: 1;
+}
+
+.edit {
+  background: pink;
+  margin-right: 5px;
+}
+
+.delete {
+  background: gray;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
